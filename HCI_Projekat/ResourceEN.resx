@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Broj korisnika" xml:space="preserve">
+    <value>Number of users</value>
+  </data>
+  <data name="btn_AMF_WorkWIthAdmins" xml:space="preserve">
+    <value>Work with admins</value>
+  </data>
+  <data name="btn_AMF_WorkWIthCamps" xml:space="preserve">
+    <value>Work with camps</value>
+  </data>
+  <data name="btn_AMF_WorkWIthVolonters" xml:space="preserve">
+    <value>Work with volunteers</value>
+  </data>
+  <data name="btn_AVTK_RasporediUKamp" xml:space="preserve">
+    <value>Schedule in camp</value>
+  </data>
+  <data name="btn_Login_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btn_VWWKK_DodajKorisnikaKampa" xml:space="preserve">
+    <value>Add camp user</value>
+  </data>
+  <data name="btn_VWWKK_IzmijeniKorisnikaKampa" xml:space="preserve">
+    <value>Edit camp user</value>
+  </data>
+  <data name="btn_VWWKK_ObrisiKorisnikaKampa" xml:space="preserve">
+    <value>Delete camp user</value>
+  </data>
+  <data name="btn_WWA_DodajAdmina" xml:space="preserve">
+    <value>Add administrator</value>
+  </data>
+  <data name="btn_WWA_IzmijeniAdmina" xml:space="preserve">
+    <value>Edit administrator</value>
+  </data>
+  <data name="btn_WWA_ObrisiAdmina" xml:space="preserve">
+    <value>Delete administrator</value>
+  </data>
+  <data name="btn_WWC_IzmijeniKamp" xml:space="preserve">
+    <value>Edit camp</value>
+  </data>
+  <data name="btn_WWC_KreirajKamp" xml:space="preserve">
+    <value>Create camp</value>
+  </data>
+  <data name="btn_WWC_ObrisiKamp" xml:space="preserve">
+    <value>Delete camp</value>
+  </data>
+  <data name="btn_WWV_DodajVolontera" xml:space="preserve">
+    <value>Add volunteer</value>
+  </data>
+  <data name="btn_WWV_IzmijeniVolontera" xml:space="preserve">
+    <value>Edit volunteer</value>
+  </data>
+  <data name="btn_WWV_ObrisiVolontera" xml:space="preserve">
+    <value>Delete volunteer</value>
+  </data>
+  <data name="btn_WWV_RasporediUKamp" xml:space="preserve">
+    <value>Schedule in camp</value>
+  </data>
+  <data name="Datum rodjenja" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Dolazak" xml:space="preserve">
+    <value>Arrival</value>
+  </data>
+  <data name="Drzava" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Drzavljanstvo" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Grad" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Ime" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Jezik" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="JMB" xml:space="preserve">
+    <value>JMB</value>
+  </data>
+  <data name="Kamp" xml:space="preserve">
+    <value>Camp</value>
+  </data>
+  <data name="Korisnicko ime" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="labelPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="labelTopLogin" xml:space="preserve">
+    <value>Welcome, enter your information</value>
+  </data>
+  <data name="labelUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="label_AVTK_Top" xml:space="preserve">
+    <value>Work with volunteers</value>
+  </data>
+  <data name="label_VWWKK_Top" xml:space="preserve">
+    <value>Welcome, you are responsible for the camp</value>
+  </data>
+  <data name="label_VWWKK_Top_Negative" xml:space="preserve">
+    <value>You don't have an assigned camp, contact the administrator</value>
+  </data>
+  <data name="label_WWA_Top" xml:space="preserve">
+    <value>Work with administrators</value>
+  </data>
+  <data name="label_WWC_Top" xml:space="preserve">
+    <value>Work with camps</value>
+  </data>
+  <data name="label_WWV_Top" xml:space="preserve">
+    <value>Work with volunteers</value>
+  </data>
+  <data name="lbl_AMF_top" xml:space="preserve">
+    <value>Welcome, </value>
+  </data>
+  <data name="Mjesto prebivalista" xml:space="preserve">
+    <value>Place of residence</value>
+  </data>
+  <data name="Naziv kampa" xml:space="preserve">
+    <value>Camp name</value>
+  </data>
+  <data name="Ocisti" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Od" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Odlazak" xml:space="preserve">
+    <value>Departure</value>
+  </data>
+  <data name="Pol" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Prebivaliste" xml:space="preserve">
+    <value>Residence</value>
+  </data>
+  <data name="Prezime" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ResourceEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Properties\ResourceSRB.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ResourceEN_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Properties\ResourceSRB.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Sifra" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Tema" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Tip nesrece" xml:space="preserve">
+    <value>Accident type</value>
+  </data>
+  <data name="Zaduzeni volonter" xml:space="preserve">
+    <value>Assigned volunteer</value>
+  </data>
+  <data name="label_COSF_Top" xml:space="preserve">
+    <value>Settings from user,</value>
+  </data>
+  <data name="btn_VMF_RadSaKorisnicima" xml:space="preserve">
+    <value>Work with camp users</value>
+  </data>
+  <data name="btn_VMF_Podesavanja" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="JMB mora imati tacno 13 brojeva" xml:space="preserve">
+    <value>JMB must have exactly 13 numbers</value>
+  </data>
+  <data name="JMB vec postoji u bazi podataka" xml:space="preserve">
+    <value>JMB already exists in the database</value>
+  </data>
+  <data name="Kamp sa ovim nazivom vec postoji u bazi podataka" xml:space="preserve">
+    <value>A camp with this name already exists in the database</value>
+  </data>
+  <data name="Korisnicko ime je zauzeto" xml:space="preserve">
+    <value>Username is already taken</value>
+  </data>
+  <data name="Morate kliknuti na volontera kojeg zelite rasporediti" xml:space="preserve">
+    <value>You have to click on the volunteer you want to assign to the camp</value>
+  </data>
+  <data name="Nije moguce obrisati glavnog admina" xml:space="preserve">
+    <value>It is not possible to delete the main admin</value>
+  </data>
+  <data name="Nije moguce obrisati volontera jer je jedini zaduzen za kamp" xml:space="preserve">
+    <value>It is not possible to delete a volunteer because he is the only one in charge of the camp</value>
+  </data>
+  <data name="Niste odabrali kamp u koji zelite rasporediti volontera" xml:space="preserve">
+    <value>You have not selected the camp to which you want to assign a volunteer</value>
+  </data>
+  <data name="Niste unijeli ni jednu promjenu" xml:space="preserve">
+    <value>You have not made any changes</value>
+  </data>
+  <data name="Pogresni podaci" xml:space="preserve">
+    <value>Wrong username or password</value>
+  </data>
+  <data name="Sva polja moraju biti popunjena" xml:space="preserve">
+    <value>All fields must be filled</value>
+  </data>
+  <data name="Uspjesno azurirano" xml:space="preserve">
+    <value>Succesfully updated</value>
+  </data>
+  <data name="Uspjesno dodano" xml:space="preserve">
+    <value>Succesfully added</value>
+  </data>
+  <data name="Uspjesno obrisano" xml:space="preserve">
+    <value>Succesfully deleted</value>
+  </data>
+  <data name="Volonter je uspjesno rasporedjen" xml:space="preserve">
+    <value>The volunteer has been successfully assigned to camp</value>
+  </data>
+</root>
